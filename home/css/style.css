@@ -71,7 +71,7 @@
 }
 
 .projects-wrapper .item {
-    flex: 1 0 40%;
+    flex: 0 1 40%;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -113,6 +113,68 @@
 
 .projects-wrapper .item:hover .content {
     display: flex;
+}
+
+.news .heading-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 40px auto 40px auto;
+}
+
+.news .heading-wrapper .navigation-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.news .heading-wrapper .navigation-wrapper .icon-holder {
+    display: flex;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+
+.news .heading-wrapper .navigation-wrapper .icon-holder {
+    color: var(--primary);
+    cursor: pointer;
+    opacity: 0.7;
+    transition: var(--transition);
+}
+
+.news .heading-wrapper .navigation-wrapper .icon-holder:hover {
+    opacity: 1;
+    transition: var(--transition);
+}
+
+.news .heading-wrapper .navigation-wrapper .icon-holder i {
+    font-size: 20px;
+    transition: var(--transition);
+}
+
+.news .news-wrapper {
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.news .news-wrapper .item {
+    flex: 0 1 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.news .news-wrapper .item .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.news .news-wrapper .item .content h3,
+.news .news-wrapper .item .content p {
+    color: var(--white);
 }
 
 @media (max-width: 560px) {

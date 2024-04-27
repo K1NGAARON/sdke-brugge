@@ -208,7 +208,7 @@
 .footer {
     min-height: unset;
     color: var(--white);
-    background-color: #000000;
+    background-color: var(--blue);
 }
 
 .footer .row {
