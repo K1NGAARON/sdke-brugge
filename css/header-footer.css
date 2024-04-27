@@ -69,6 +69,11 @@
     border-color: var(--primary);
 }
 
+.header .btn.ghost {
+    color: var(--white);
+    border-color: var(--white);
+}
+
 .header .row {
     width: 100%;
     min-height: unset;

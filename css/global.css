@@ -86,6 +86,15 @@ img.bg {
     background-color: var(--light-grey);
 }
 
+.section.blue {
+    background-color: var(--blue);
+}
+
+.section.blue h2,
+.section.blue p {
+    color: var(--white);
+}
+
 .section .row {
     width: 100%;
     max-width: 1600px;
@@ -120,6 +129,23 @@ img.bg {
     gap: 20px;
 }
 
+.section .row .col.flex-1 {
+    flex: 1 0;
+}
+
+.section .row .col.flex-2 {
+ flex: 2 0;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+.btn-wrapper {
+    gap: 20px;
+}
+
 .btn {
     width: fit-content;
     font-weight: 700;
@@ -135,8 +161,8 @@ img.bg {
 
 .btn.ghost {
     background-color: transparent;
-    color: var(--white);
-    border-color: var(--white);
+    color: var(--primary);
+    border-color: var(--primary);
 }
 
 .btn:hover {
