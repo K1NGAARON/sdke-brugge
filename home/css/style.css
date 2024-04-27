@@ -41,6 +41,10 @@
     text-align: center;
 }
 
+.banner .row p {
+    width: 60%;
+}
+
 .values-wrapper {
     width: 100%;
     display: flex;
@@ -259,6 +263,10 @@
 
     .banner h1,
     .banner p {
+        width: 100%;
+    }
+
+    .banner .row p {
         width: 100%;
     }
 
