@@ -21,3 +21,7 @@
 .banner.contact .legal .legal-item p {
     color: var(--white);
 }
+
+.section .form-wrapper {
+    background-color: var(--white);
+}
