@@ -409,6 +409,15 @@ img.bg {
         flex: 1 0 100%;
     }
 
+    .section .row .col:nth-child(1),
+    .section .row .col:nth-child(2) {
+        flex: 1 0 100%;
+    }
+
+    .section .projects-wrapper .item {
+        flex: 1 0 100%;
+    }
+
     .section .row {
         padding: 0 30px;
     }
