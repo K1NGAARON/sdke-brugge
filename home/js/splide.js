@@ -12,6 +12,6 @@ document.addEventListener( 'DOMContentLoaded', function() {
             640: {
                 destroy: true,
             },
-      }
+        }
     }).mount();
 });
