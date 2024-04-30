@@ -70,3 +70,9 @@
 .news-wrapper .item .content .btn {
     margin-top: 20px;
 }
+
+@media (max-width: 560px) {
+    .news .news-wrapper .item {
+        flex: 1 0 100%;
+    }
+}

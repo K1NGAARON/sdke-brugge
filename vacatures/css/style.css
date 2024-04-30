@@ -70,3 +70,9 @@
 .jobs-wrapper .item .content .btn {
     margin-top: 20px;
 }
+
+@media (max-width: 560px) {
+    .jobs-wrapper .item {
+        flex: 1 0 100%;
+    }
+}

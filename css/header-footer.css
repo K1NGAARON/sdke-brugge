@@ -307,7 +307,7 @@
 
     .header .logo, 
     .footer .logo {
-        width: 75px;
+        width: 100px;
     }
 
     .nav::before {

@@ -10,3 +10,9 @@
 .job-post .container ul {
     padding-left: 30px;
 }
+
+@media (max-width: 560px) {
+    .job-post .container {
+        width: 100%;
+    }
+}
