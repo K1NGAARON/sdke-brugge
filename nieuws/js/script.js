@@ -4,21 +4,21 @@ const news = [
         body: "Hier komt een korte uitleg",
         type: "type-1",
         img: "/home/img/banner.jpg",
-        url: "/vacatures/job-opening-1/"
+        url: "/nieuws/blog-1/"
     },
     {
         title: "Blog voorbeeld 2",
         body: "Hier komt een korte uitleg",
         type: "type-2",
         img: "/home/img/banner.jpg",
-        url: "/vacatures/job-opening-1/"
+        url: "/nieuws/blog-1/"
     },
     {
         title: "Blog voorbeeld 3",
         body: "Hier komt een korte uitleg",
         type: "type-3",
         img: "/home/img/banner.jpg",
-        url: "/vacatures/job-opening-1/"
+        url: "/nieuws/blog-1/"
     },
 ];
 
