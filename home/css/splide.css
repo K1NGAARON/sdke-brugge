@@ -34,3 +34,11 @@
 .news.section .splide__arrow svg {
     fill: var(--primary);
 }
+
+@media (max-width: 560px) {
+    .splide.is-initialized:not(.is-active) .splide__list,
+    .splide__list {
+        display: flex!important;
+        flex-direction: column;
+    }
+}

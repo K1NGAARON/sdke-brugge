@@ -8,5 +8,10 @@ document.addEventListener( 'DOMContentLoaded', function() {
         perPage: 3,
         perMove: 1,
         rewind: true,
+        breakpoints: {
+            640: {
+                destroy: true,
+            },
+      }
     }).mount();
 });
